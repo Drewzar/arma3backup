@@ -543,7 +543,7 @@ class MainMap
 };
 FavoriteServers[]={};
 difficulty="regular";
-browsingSource="Internet";
+browsingSource="History";
 class Filter
 {
 	serverName="";
@@ -559,8 +559,7 @@ class Filter
 	expansions=1;
 };
 battleyeLicense=1;
-lastMPMission="69thID Co-60 AW Invade & Annex 2.81E";
-headBob=1;
+lastMPMission="Co-6 Evade and Survive";
 activeKeys[]=
 {
 	"BIS_A_hub01.Stratis_done",
@@ -599,14 +598,19 @@ mouseSensitivityY=1;
 floatingZoneArea=0;
 remoteIPAddress="arma.wtf.cat";
 remotePort=2302;
+headBob=1;
+playedKeys[]=
+{
+	"BIS_EvadeSurvive.Altis_done"
+};
 sceneComplexity=1000000;
 shadowZDistance=200;
 viewDistance=4232.3735;
 preferredObjectViewDistance=4215.4873;
 terrainGrid=3.125;
-volumeCD=2.9485652;
-volumeFX=2.9485652;
-volumeSpeech=3.0083737;
+volumeCD=1.2440184;
+volumeFX=0.97487998;
+volumeSpeech=1.2440184;
 volumeVoN=7.1650701;
 vonRecThreshold=0.029999999;
 gamma=1.0660428;

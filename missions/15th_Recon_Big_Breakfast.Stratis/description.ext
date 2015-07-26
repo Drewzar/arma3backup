@@ -1,0 +1,99 @@
+#include "G_Revive\G_Desc_Include.hpp"
+/**
+ * Displays a message while the mission is loading.
+ *
+ * Note that a mission that takes very little time to load
+ * will only display the message for a short time.
+ *
+ * Care should be taken to see whether your
+ * message is readable in that timeframe.
+ */
+
+/**
+ * cfgIdentities
+ *
+ * Define the identities of individual units, you can specify
+ * the face, type of glasses worn, voice, tone of voice and name
+ * of an identity. You then give a specific unit this identity
+ * by using the command setIdentity in the mission.
+ *
+ * class CfgIdentities
+ * {
+ *        class John_Doe
+ *        {
+ *            name="John Bartholemew Doe";
+ *            face="Face20";
+ *            glasses="None";
+ *            speaker="Dan";
+ *            pitch=1.1;
+ *        };
+ * };
+ *
+ * See Category:CfgIdentities for valid options for:
+ * face, glasses, speaker etc.
+ * http://community.bistudio.com/wiki/Category:CfgIdentities
+ */
+
+/**
+ * When 1, removes all playable units which do not have a human player. (MP)
+ * Disabling all the AI units will prevent Join in Progress (JIP) into playable units.
+ */
+
+// disabledAI = 1;
+
+/**
+ * Weapons
+ *
+ * Set weapons available to players during the briefing.
+ *
+ * Example:
+ * class Weapons
+ * {
+ *         class AK74 {count = 8;};
+ *         class RPG7V {count = 2;};
+ *         class Binocular {count = 2;};
+ * };
+ */
+
+/**
+ * Magazines
+ *
+ * Set magazines available to players during the briefing.
+ *
+ * Example:
+ * class Magazines
+ * {
+ *         class 30Rnd_545x39_AK {count = 32;};
+ *         class PG7V {count = 6;};
+ *         class HandGrenade {count = 16;};
+ * };
+ */
+
+/**
+ * onLoadName
+ *
+ * String (usually mission name) shown during
+ * mission loading.  * The string is shown in a
+ * slightly larger font above the loadScreen.
+ *
+ * Example:
+ * author="Varanon";
+ * OnLoadName = "Point Insertion";
+ * OnLoadMission = "A group of NATO soldiers is tasked with sabotaging a coastal defense.";
+ * loadScreen = "images\loadScreen.paa";
+ *
+ * This produces the pictured result:
+ * http://community.bistudio.com/wiki/File:2013-03-08_00004.jpg
+ *
+ * The onLoadMission text is placed below the load screen
+ * and the header gameType determines the game time on top of the box.
+ *
+ * Author of the mission:
+ * The default loading screen shows this string below
+ * the onLoadName in a smaller font prefixed by "by"
+ */
+
+author= "Murphz";
+OnLoadName = "15° Recon Big Breakfast";
+OnLoadMission = "15th MEU dawn infiltration of Stratis...";
+loadScreen = "11.jpg";
