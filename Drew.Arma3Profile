@@ -597,6 +597,8 @@ class JoysticksList
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 floatingZoneArea=0;
+remoteIPAddress="arma.wtf.cat";
+remotePort=2302;
 sceneComplexity=1000000;
 shadowZDistance=200;
 viewDistance=4232.3735;
